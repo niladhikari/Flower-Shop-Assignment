@@ -24,6 +24,7 @@
 section {
   margin-bottom: 128px;
 }
+
 /* header section */
 .header {
   height: 850px;
@@ -61,14 +62,74 @@ main {
 
 /* Featured Flowers style */
 .feature-flower {
-  height: 467px;
-  background-color: #fff;
+  height: 720px;
+  padding-top: 178px;
 }
-
-
-
-
-
+.feature-text {
+  text-align: center;
+}
+.feature-tital {
+  color: #272727;
+  font-size: 40px;
+  font-weight: 800;
+}
+.feature-discription {
+  color: rgba(39, 39, 39, 0.6);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 25px;
+  padding-top: 24px;
+  padding-bottom: 48px;
+  width: 45%;
+  margin: auto;
+}
+.feature-cards {
+  display: flex;
+  gap: 24px;
+  justify-content: center;
+}
+.cards {
+  width: 430.67px;
+  height: 500px;
+  border-radius: 300px 300px 0px 0px;
+}
+.cards-1 {
+  background-color: #a7216226;
+}
+.cards-img-1 {
+  padding: 0px 78px;
+  padding-top: 72px;
+}
+.cards-2 {
+  background-color: #0597a026;
+  background-image: url('url("flower-images/flower 01.png");');
+}
+.cards-img-2 {
+  padding: 100px 47px 51px 47px;
+  padding-top: 72px;
+}
+.cards-3 {
+  background-color: #477d1126;
+  background-image: url('url("flower-images/flower 01.png");');
+}
+.cards-img-3 {
+  padding-top: 29px;
+  padding-left: 75px;
+  padding-right: 75px;
+}
+.flower {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 32px;
+}
+.flower-tital {
+  color: #272727;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 35px;
+  text-decoration-line: underline;
+}
 
 /* hot-deal style */
 .hot-deal-container {
@@ -108,9 +169,7 @@ main {
 }
 .instagram-tital {
   color: #272727;
-
   font-size: 40px;
-
   font-weight: 800;
 }
 .instagram-discription {
@@ -225,26 +284,26 @@ main {
   align-items: center;
 }
 .footer-container {
-    text-align: center;
+  text-align: center;
 }
 .footer-tital {
-    padding-top: 128;
-  color: #FFFFFF;
+  padding-top: 128;
+  color: #ffffff;
   font-size: 45px;
   font-weight: 800;
 }
-.footer-discription{
- color: rgba(255, 255, 255, 0.90);
-font-size: 18px;
-font-weight: 400;
-line-height: 25px;
-width: 65%;
-margin: auto;
-padding-top: 24px;
-padding-bottom: 32px;
+.footer-discription {
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 25px;
+  width: 65%;
+  margin: auto;
+  padding-top: 24px;
+  padding-bottom: 32px;
 }
-small{
-color: rgba(255, 255, 255, 0.40);
-font-size: 14px;
-font-weight: 400;
+small {
+  color: rgba(255, 255, 255, 0.4);
+  font-size: 14px;
+  font-weight: 400;
 }
