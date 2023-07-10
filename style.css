@@ -11,7 +11,7 @@
 .primary-btn {
   border-radius: 8px;
   background: #e55473;
-  padding: 20px 43px;
+  padding: 20px 40px;
   color: #fff;
   font-family: Lato;
   font-size: 20px;
@@ -66,9 +66,6 @@ main {
 }
 
 /* hot-deal style */
-/* .hot-deal{
-  
-} */
 .hot-deal-container {
   height: 620px;
   background-color: #e554730d;
@@ -84,9 +81,7 @@ main {
 .hot-deal-tital {
   color: #272727;
   font-size: 40px;
-  font-style: normal;
   font-weight: 800;
-  line-height: normal;
 }
 .hot-deal-discrition {
   color: rgba(39, 39, 39, 0.6);
@@ -102,7 +97,7 @@ main {
   padding: 100px 0px;
 }
 
-/*  */
+/* Hot Deal style */
 .instagram-text {
   text-align: center;
 }
@@ -131,8 +126,8 @@ main {
   align-items: center;
 }
 .card {
-  width: 250px;
-  height: 280px;
+  width: 315px;
+  height: 370px;
 }
 .cade-1 {
   background-image: url("flower-images/flower 01.png");
@@ -159,7 +154,59 @@ main {
   background-repeat: no-repeat;
 }
 
-.tito {
-  height: 200px;
-  background-color: #e55473;
+/* Get The Latest style */
+.latest {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.latest-container {
+  width: 1340px;
+  height: 449px;
+  margin: 0px 0px;
+  background-image: url("flower-images/rectangle\ 9.png");
+  background-position: center;
+  text-align: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.latest-tital {
+  color: #272727;
+  font-size: 40px;
+  padding-top: 122px;
+  font-weight: 800;
+}
+.latest-discription {
+  color: rgba(39, 39, 39, 0.6);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 25px;
+  padding-top: 22px;
+  padding-bottom: 48px;
+}
+
+.latest-btn {
+  border-radius: 8px;
+  background: #e55473;
+  height: 64px;
+  padding: 0px 30px;
+  color: #fff;
+  font-family: Lato;
+  font-size: 20px;
+  font-weight: 700;
+  border: none;
+}
+.input-email {
+  width: 700px;
+  height: 64px;
+  border-radius: 8px;
+  border: none;
+  background: #fff;
+  margin-right:10px;
+}
+::placeholder {
+  color: rgba(39, 39, 39, 0.6);
+  font-size: 16px;
+  font-weight: 400;
+  padding-left: 22px;
 }
