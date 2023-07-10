@@ -18,8 +18,11 @@
   font-weight: 700;
   border: none;
 }
-.primary-color{
-    color: #E55473;
+.primary-color {
+  color: #e55473;
+}
+section {
+  margin-bottom: 128px;
 }
 /* header section */
 .header {
@@ -53,59 +56,110 @@
 }
 
 main {
-
+  background-color: #fff;
 }
 
 /* Featured Flowers style */
-.feature-flower{
-    height: 467px;
-    background-color: #FFF;
+.feature-flower {
+  height: 467px;
+  background-color: #fff;
 }
-
-
-
 
 /* hot-deal style */
-.hot-deal{
-    height: 620px;
-    background-color: #E554730D;
+/* .hot-deal{
+  
+} */
+.hot-deal-container {
+  height: 620px;
+  background-color: #e554730d;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 100px;
 }
-.hot-deal-container{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    gap: 100px;
+.hot-deal-text {
+  padding-left: 200px;
 }
-.hot-deal-text{
-    padding-left: 200px;
+.hot-deal-tital {
+  color: #272727;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
 }
-.hot-deal-tital{
-color: #272727;
-font-size: 35px;
-font-style: normal;
-font-weight: 800;
-line-height: normal;
+.hot-deal-discrition {
+  color: rgba(39, 39, 39, 0.6);
+  width: 85%;
+  margin: auto;
+  padding: 30px 0px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 25px;
 }
-.hot-deal-discrition{
-color: rgba(39, 39, 39, 0.60);
-width: 85%;
-margin: auto;
-padding: 30px 0px;
-font-size:   18px;
-font-weight: 400;
-line-height: 25px;
-}
-.hot-deal-image{
-    margin-right: 200px;
-    padding: 100px 0px;
+.hot-deal-image {
+  margin-right: 200px;
+  padding: 100px 0px;
 }
 
+/*  */
+.instagram-text {
+  text-align: center;
+}
+.instagram-tital {
+  color: #272727;
 
+  font-size: 40px;
 
+  font-weight: 800;
+}
+.instagram-discription {
+  color: rgba(39, 39, 39, 0.6);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 25px;
+  padding-top: 24px;
+  width: 50%;
+  margin: auto;
+  padding-bottom: 48px;
+}
 
-                                             
-.tito{
-    height: 200px;
-    background-color: #e55473;
+.instagram-container {
+  display: flex;
+  gap: 24px;
+  justify-content: center;
+  align-items: center;
+}
+.card {
+  width: 250px;
+  height: 280px;
+}
+.cade-1 {
+  background-image: url("flower-images/flower 01.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.cade-2 {
+  background-image: url("flower-images/rectangle\ 4.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.cade-3 {
+  background-image: url("flower-images/rectangle\ 5.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.cade-4 {
+  background-image: url("flower-images/rectangle\ 6.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.tito {
+  height: 200px;
+  background-color: #e55473;
 }
