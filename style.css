@@ -42,8 +42,10 @@ section {
   background-color: #e554731a;
 }
 .banner-container {
+  height: 100vh;
   display: flex;
   gap: 97px;
+  justify-content: center;
   align-items: center;
 }
 .banner-text {
