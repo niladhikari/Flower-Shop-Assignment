@@ -52,11 +52,11 @@ section {
 }
 .banner-discription {
   padding: 32px 0px;
+
 }
 .banner-image {
   padding-right: 50px;
   padding-top: 50px;
-  height: 800px;
   width: 635px;
 }
 
@@ -93,25 +93,29 @@ main {
   height: 500px;
   border-radius: 300px 300px 0px 0px;
 }
+.cards:hover{
+    box-shadow:10px 10px 15px rgb(141, 156, 156) ;
+}
 .cards-1 {
   background-color: #a7216226;
 }
+
 .cards-img-1 {
   padding: 0px 78px;
   padding-top: 72px;
 }
 .cards-2 {
   background-color: #0597a026;
-  background-image: url('url("flower-images/flower 01.png");');
 }
+
 .cards-img-2 {
   padding: 100px 47px 51px 47px;
   padding-top: 72px;
 }
 .cards-3 {
   background-color: #477d1126;
-  background-image: url('url("flower-images/flower 01.png");');
 }
+
 .cards-img-3 {
   padding-top: 29px;
   padding-left: 75px;
@@ -208,6 +212,10 @@ main {
 .card {
   width: 315px;
   height: 370px;
+  border: none;
+}
+.card:hover{
+box-shadow:10px 10px 15px rgb(141, 156, 156) ;
 }
 .cade-1 {
   background-image: url("flower-images/flower 01.png");
@@ -248,6 +256,7 @@ main {
   display:flex;
   justify-content: center;
   align-items: center;
+  border-radius: 8px;
 }
 .history-text{
   width: 50%;
@@ -352,11 +361,12 @@ q{
 }
 .footer-discription {
   width: 65%;
+  color: rgba(255, 255, 255, 0.90);;
   margin: auto;
   padding-top: 24px;
   padding-bottom: 24px;
 }
-small {
+.footer-smaill {
   color: rgba(255, 255, 255, 0.4);
   font-size: 14px;
   font-weight: 400;
@@ -372,8 +382,63 @@ small {
 
 /* blog section style */
 .blog{
-  width: 1340px;
-  height:600px;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
+.blog-container{
+  width: 1340px;
+  text-align: center;
+ 
+}
+.blog-tital{
+ margin-bottom: 40px;
 
+}
+.blog-cadrs{
+display: flex;
+gap: 24px;
+justify-content: center;
+
+}
+.blog-card{
+  width: 430.67px;
+  height: 600px;
+ border: none;
+ background-color: #e7e4e4;
+ border-radius: 25px;
+cursor: pointer;
+}
+.blog-card:hover{
+  box-shadow: 10px 10px 12px rgb(104, 125, 143);
+}
+.blog-cadrs img{
+  width: 430.67px;
+  border-radius: 25px 25px 0px 0px;
+}
+.blog-card-tital{
+  padding-top: 20px;
+  padding-left: 20px;
+  color: #272727;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 35px;
+}
+.blog-admin{
+  padding-top: 15px;
+  padding-left: 20px;
+  color: #010101;
+}
+.blog-card-discription{
+  padding-top: 15px;
+  padding-left: 24px;
+  padding-right: 24px;
+  color: #010101;
+  padding-bottom: 10px;
+}
+.blog-cadrs a{
+  text-decoration: none;
+  font-weight: bolder;
+}
