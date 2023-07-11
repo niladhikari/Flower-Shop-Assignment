@@ -38,7 +38,7 @@ section {
 
 /* header section */
 .header {
-  height: 850px;
+  height: 100vh;
   background-color: #e554731a;
 }
 .banner-container {
@@ -47,7 +47,7 @@ section {
   align-items: center;
 }
 .banner-text {
-  padding-left: 100px;
+  padding-left: 150px;
 }
 .banner-tital {
   padding-top: 197px;
@@ -60,7 +60,7 @@ section {
 
 }
 .banner-image {
-  padding-right: 50px;
+  padding-right: 100px;
   padding-top: 50px;
   width: 635px;
 }
