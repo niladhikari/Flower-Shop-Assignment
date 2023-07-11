@@ -24,6 +24,12 @@
 section {
   margin-bottom: 128px;
 }
+.discription {
+  color: rgba(39, 39, 39, 0.6);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 25px;
+}
 
 /* header section */
 .header {
@@ -45,17 +51,13 @@ section {
   font-weight: 800;
 }
 .banner-discription {
-  color: rgba(39, 39, 39, 0.6);
-  font-size: 18px;
   padding: 32px 0px;
-  font-weight: 400;
-  line-height: 25px;
 }
 .banner-image {
   padding-right: 50px;
   padding-top: 50px;
-   height: 800px;
-   width: 635px;
+  height: 800px;
+  width: 635px;
 }
 
 main {
@@ -76,10 +78,6 @@ main {
   font-weight: 800;
 }
 .feature-discription {
-  color: rgba(39, 39, 39, 0.6);
-  font-size: 18px;
-  font-weight: 400;
-  line-height: 25px;
   padding-top: 24px;
   padding-bottom: 48px;
   width: 45%;
@@ -133,33 +131,29 @@ main {
   text-decoration-line: underline;
 }
 
-
-
 /* flower maintenance style */
-.maintenance{
-    display: flex;
-    justify-content: center;
+.maintenance {
+  display: flex;
+  justify-content: center;
 }
-.flower-maintenance{
-    width:1340px;
-    height: 320px;
-    background-color: #2727270D;
-    border-radius: 8px;
-    border: none;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    text-align: center;
+.flower-maintenance {
+  width: 1340px;
+  height: 320px;
+  background-color: #2727270d;
+  border-radius: 8px;
+  border: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
 }
-.flower-maintenance-discription{
-color: rgba(39, 39, 39, 0.80);
-font-size: 20px;
-font-weight: 600;
-line-height: 35px;
-padding-top: 24px;
+.flower-maintenance-discription {
+  color: rgba(39, 39, 39, 0.8);
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 35px;
+  padding-top: 24px;
 }
-
-
 
 /* hot-deal style */
 .hot-deal-container {
@@ -180,20 +174,16 @@ padding-top: 24px;
   font-weight: 800;
 }
 .hot-deal-discrition {
-  color: rgba(39, 39, 39, 0.6);
   width: 85%;
   margin: auto;
   padding: 30px 0px;
-  font-size: 18px;
-  font-weight: 400;
-  line-height: 25px;
 }
 .hot-deal-image {
   margin-right: 200px;
   padding: 100px 0px;
 }
 
-/* Hot Deal style */
+/* Instagram sectioin style */
 .instagram-text {
   text-align: center;
 }
@@ -203,13 +193,9 @@ padding-top: 24px;
   font-weight: 800;
 }
 .instagram-discription {
-  color: rgba(39, 39, 39, 0.6);
-  font-size: 18px;
-  font-weight: 400;
-  line-height: 25px;
-  padding-top: 24px;
   width: 50%;
   margin: auto;
+  padding-top: 24px;
   padding-bottom: 48px;
 }
 
@@ -248,6 +234,50 @@ padding-top: 24px;
   background-repeat: no-repeat;
 }
 
+/* history style */
+.history{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+ 
+}
+.history-container {
+  width: 1340px;
+  height: 520px;
+  background-color: #f5f5f5;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+.history-text{
+  width: 50%;
+  margin: auto;
+}
+.history-style-tital{
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 34px;
+  letter-spacing: 3px;
+  margin: 0 0 15px 0;
+  font-family: "Great Vibes", cursive;
+}
+.history-tital{
+  font-size: 70px;
+  font-family: "Josefin Slab", serif;
+  font-weight: 600;
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
+.history-discription{
+color: #010101;
+padding: 40px 0px;
+}
+q{
+  font-size: 20px;
+  line-height: 30px;
+  font-family: "Josefin Slab", serif;
+}
+
 /* Get The Latest style */
 .latest {
   display: flex;
@@ -273,10 +303,6 @@ padding-top: 24px;
   font-weight: 800;
 }
 .latest-discription {
-  color: rgba(39, 39, 39, 0.6);
-  font-size: 18px;
-  font-weight: 400;
-  line-height: 25px;
   padding-top: 22px;
   padding-bottom: 48px;
 }
@@ -325,17 +351,29 @@ padding-top: 24px;
   font-weight: 800;
 }
 .footer-discription {
-  color: rgba(255, 255, 255, 0.9);
-  font-size: 18px;
-  font-weight: 400;
-  line-height: 25px;
   width: 65%;
   margin: auto;
   padding-top: 24px;
-  padding-bottom: 32px;
+  padding-bottom: 24px;
 }
 small {
   color: rgba(255, 255, 255, 0.4);
   font-size: 14px;
   font-weight: 400;
 }
+.icons {
+  margin-bottom: 32px;
+}
+.icons a {
+  font-size: 22px;
+  padding: 5px;
+  color: rgb(195, 205, 231);
+}
+
+/* blog section style */
+.blog{
+  width: 1340px;
+  height:600px;
+}
+
+
