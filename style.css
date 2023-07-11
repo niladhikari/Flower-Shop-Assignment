@@ -16,7 +16,12 @@
   font-family: Lato;
   font-size: 20px;
   font-weight: 700;
+  cursor: pointer;
   border: none;
+}
+.primary-btn:hover{
+  background-color:#fff ;
+  color: #e55473;
 }
 .primary-color {
   color: #e55473;
@@ -326,6 +331,10 @@ q{
   font-size: 20px;
   font-weight: 700;
   border: none;
+}
+.latest-btn:hover{
+  background-color:#fff ;
+  color: #e55473;
 }
 .input-email {
   width: 700px;
